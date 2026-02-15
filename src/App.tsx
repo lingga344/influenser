@@ -69,15 +69,15 @@ const CONFIG = {
   // 1. Daftar di https://formspree.io
   // 2. Buat form baru
   // 3. Ganti URL di bawah dengan endpoint Anda
-  FORMSPREE_ENDPOINT: 'https://formspree.io/f/xbdaoqen',
+  FORMSPREE_ENDPOINT: 'https://formspree.io/f/',
   
   // Atau gunakan EmailJS:
   // 1. Daftar di https://emailjs.com
   // 2. Buat service dan template
   // 3. Isi konfigurasi di bawah
-  USE_EMAILJS: false,
+  USE_EMAILJS: true,
   EMAILJS_SERVICE_ID: 'service_vyxct66',
-  EMAILJS_TEMPLATE_ID: 'service_vyxct66',
+  EMAILJS_TEMPLATE_ID: '__ejs-test-mail-service__',
   EMAILJS_PUBLIC_KEY: 'service_vyxct66'
 };
 
